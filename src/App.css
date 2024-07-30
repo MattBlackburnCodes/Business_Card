@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+#root{
+  font-family: "Inter", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f9f9f9;
+  background-color: #1a1a1a;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(35,37,44,1);
+  margin: 0;
+  width: 100%;
+}
+
+.app-body{
+  border-radius: 10px;
+  background-color: rgba(26,27,33,1);
+  max-width: 400px;
+  min-width: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.app-body,
+.info-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.info-body{
+  line-height: 20px;
+}
+
+.image-style{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.name-style{
+  font-size: 1.5rem;
+  width: 90%;
+}
+
+.title-style{
+  margin: 0px;
+  color: orange;
+  width: 70%;
+}
+
+.website-style{
+  font-size: .6rem;
+  padding: 0px 20px;
+  
+}
+
+.button-style{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.email-style{
+  background-color: lightgrey;
+  color: black;
+}
+
+.email-style,
+.linkedin-style
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  font-family: "Inter", "sans-serif";
+  font-size: .7rem;
+  padding: 9px 13px 9px 11px;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 7rem;
+  transition: transform .3s ease;
+}
+
+.email-style:hover,
+.linkedin-style:hover
+{
+  transform: scale(1.1);
+}
+
+.email-icon-style,
+.linkedin-icon-style
+{
+  width: 10px;
+}
+
+.linkedin-style{
+  background-color: rgba(80, 147, 226, 1); 
+  color: white;
+  
+}
+
+.about-style,
+.interest-style
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  padding: 0px 20px;
+  
+}
+
+.about-title-style,
+.interest-style
+{
+  font-size: large;
+}
+
+.about-body-style,
+.interest-style
+{
+  font-size: medium;
+}
+
+.social-media-style{
+  display:flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
