@@ -137,15 +137,17 @@ body{
 }
 
 .about-title-style,
-.interest-style
+.interest-title-style
 {
-  font-size: large;
+  font-size: larger;
 }
 
 .about-body-style,
-.interest-style
+.interest-body-style
 {
-  font-size: medium;
+  font-family: 'sans-serif', 'Inter';
+  font-size: .8rem;
+  font-weight: bold;
 }
 
 .social-media-style{
